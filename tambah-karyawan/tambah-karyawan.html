@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Kehadiran Karyawan</title>
+  <link rel="stylesheet" href="/tambah-karyawan/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Masukan Data Diri Anda</h1>
+    <form id="newEmployeeForm">
+      <input type="text" id="employeeName" placeholder="Nama Karyawan" required>
+      <input type="text" id="employeeJobTitle" placeholder="Jabatan" required>
+      <input type="text" id="employeeAddress" placeholder="Alamat" required>
+      <input type="email" id="employeeEmail" placeholder="Email" required>
+      <input type="tel" id="employeePhoneNumber" placeholder="Nomor Telepon" required>
+      <input type="text" id="employeeSocialMedia" placeholder="Media Sosial" required>
+      <textarea id="employeeBio" placeholder="Bio"></textarea>
+      <button type="submit">Tambah Karyawan</button>
+    </form>
+    <div id="notification" style="display: none;"></div>
+  </div>
+  <script src="/tambah-karyawan/script.js"></script>
+</body>
+</html>

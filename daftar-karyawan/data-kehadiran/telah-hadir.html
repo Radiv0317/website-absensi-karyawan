@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Kehadiran Karyawan</title>
+  <link rel="stylesheet" href="/daftar-karyawan/data-kehadiran/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Data Kehadiran Karyawan</h1>
+    <table class="attendance-table">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Nama Karyawan dan Jabatan</th>
+        </tr>
+      </thead>
+      <tbody id="employeeList">
+        <!-- Informasi karyawan yang telah absen akan ditampilkan di sini -->
+      </tbody>
+    </table>
+    <div class="buttons">
+      <button onclick="resetAttendanceData()">Reset Data Kehadiran</button>
+    </div>
+  </div>
+
+  <script src="/daftar-karyawan/data-kehadiran/script.js"></script>
+</body>
+</html>

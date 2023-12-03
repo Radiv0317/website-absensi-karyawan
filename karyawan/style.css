@@ -1,0 +1,70 @@
+/* Reset CSS untuk membersihkan default styling */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  .employee-data {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Memberikan sedikit ruang atas dan bawah pada footer */
+    position: absolute; /* Mengatur posisi footer */
+    bottom: 0; /* Meletakkan footer di bagian bawah halaman */
+    width: 100%; /* Memastikan footer menutupi lebar layar */
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* ... (Tambahkan gaya lain sesuai kebutuhan) ... */
+  
